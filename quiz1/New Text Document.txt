@@ -1,0 +1,1 @@
+ffmpeg -f gdigrab -r 2 -probesize 40M -threads 1 -i desktop -vcodec libx264 -b:v 256k C:\AP2_2\cpp\quiz1\6330271121_Nalin_quiz1.mp4
